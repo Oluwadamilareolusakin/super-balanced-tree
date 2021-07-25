@@ -66,6 +66,8 @@ func isBalanced(t *tree.Tree) (result bool) {
   return
 }
 
+// a case where the subtrees on the right are super balanced but
+// the full tree is out of balance
 func bothSubTreesSuperBalanced() {
   desc := "both subtrees superbalanced"
 
@@ -82,6 +84,7 @@ func bothSubTreesSuperBalanced() {
   assertFalse(result, desc)
 }
 
+// tests a full tree that is super balanced
 func fullTree() {
   desc := "Full tree"
 
@@ -100,6 +103,7 @@ func fullTree() {
   assertTrue(result, desc)
 }
 
+// tests a case where two leafs differ by 2 in depth
 func differByTwo() {
   desc := "leaf heights differ by two"
 
