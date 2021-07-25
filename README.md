@@ -9,3 +9,5 @@ A tree is "superbalanced" if the difference between the depths of any two leaf n
 A leaf node is a tree node with no children.
 
 It's the "end" of a path to the bottom, from the root.
+
+#### This algorithm is the bi-product of solving this [problem](https://www.interviewcake.com/question/ruby/balanced-binary-tree?course=fc1&section=trees-graphs) on [Interview Cake](https://www.interviewcake.com/), my new favourite resource to keep me challenged
